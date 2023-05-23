@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(180, 180, 180);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 325px 30px auto 30px;
+   font-size: 50px
+}
+
+img {
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    z-index: -10;
+}
+
+h1 {
+    position: absolute;
+    padding-left: 20px;
+}
+
+div {
+    position: relative;
+    background-color: white;
+}
+
+h4 {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 30px;
+    color: rgb(141, 9, 9);
+}
+
+.grey-background {
+
+    background-color: rgb(92, 92, 92);
+}
