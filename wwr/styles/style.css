@@ -10,6 +10,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 header {
     background-color: #4598b9;
     display: grid;
@@ -226,6 +227,8 @@ footer .social img {
 #hero-img {
     width: 100%;
 }
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
