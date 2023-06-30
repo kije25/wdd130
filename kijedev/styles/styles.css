@@ -1,7 +1,129 @@
-
-
-img {
-    max-width: 500px;
+* {
+    margin: auto 0;
 }
 
+body {
+    background-color: #7da2d3;
+}
 
+h1, h2, h3, h4 {
+    font-family: "IM Fell French Canon SC";
+}
+
+p, h6 {
+    font-family: sans-serif, Lato, Helvetica;
+}
+
+img {
+    max-width: 600px;
+}
+
+.logo {
+    width: 75px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 350px 200px 300px 500px ;
+    padding-left: 30px ;
+    background-color: #4598b9;
+}
+
+h3 a {
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #F4AC45;
+}
+
+a:hover {
+    color: #C6E2E9;
+}
+
+.central-pic {
+    margin: 20px 0 30px 40px;
+}
+
+main, .hero {
+    display: grid;
+    grid-template-columns: 50% 700px;
+}
+
+main > div, .hero > div {
+    margin: 10px 100px 0 -30px;
+}
+
+.home-writing {
+    margin-top: 0px;
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 70px;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    justify-items : center;
+    margin: 60px 0 40px;
+}
+
+h4 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.links img {
+    width: 300px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 350px 100px 200px 200px 400px 70px;
+    padding-left: 30px ;
+    background-color: #4598b9;
+}
+
+.social-link {
+    max-height: 50px;
+}
+
+.bio {
+    margin-top: 80px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro > h1 {
+    font-size: 60px;
+}
+
+.intro > h6 {
+    font-size: 20px;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 50% 50%;
+    margin-left: 150px;
+    margin-top: -50px
+}
+
+.box > img {
+    width: 200px;
+    height: 200px;
+}
+
+.box {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
