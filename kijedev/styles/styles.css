@@ -98,7 +98,8 @@ footer {
 
 .intro {
     text-align: center;
-    margin-bottom: 40px;
+    margin: 0px 50px 40px;
+
 }
 
 .intro > h1 {
@@ -113,17 +114,52 @@ footer {
     display: grid;
     grid-template-columns: 30% 30% 30%;
     grid-template-rows: 50% 50%;
-    margin-left: 150px;
-    margin-top: -50px
+    padding-left: 150px;
+    background-color: #7da2d3;
+    
+}
+
+.top {
+    margin-top: 50px;
+    margin-bottom: -4px;
+}
+
+.bottom {
+    margin-bottom: 50px;
 }
 
 .box > img {
-    width: 200px;
-    height: 200px;
+    width: 382px;
+    height: 382px;
 }
 
 .box {
-    margin-top: 50px;
     text-align: center;
-    margin-bottom: 30px;
+}
+
+.boxes img:hover {
+    background-color: #ddd;
+}
+
+.boxes img.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    background-color: #4598b9;
+    padding: 50px 200px;
+    position: relative;
+
+  }
+
+.tabcontent > span {
+    position: absolute;
+    top: 25px;
+    right: 180px;
+    background-color: #C6E2E9;
+    border-radius: 100%;
+    width: 16px;
+    height: 16px;
+    line-height: 13px;
 }
