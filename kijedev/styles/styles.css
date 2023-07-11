@@ -18,6 +18,11 @@ img {
     max-width: 600px;
 }
 
+.project-image {
+    width: 1200px;
+    margin-left: 100px;
+}
+
 .logo {
     width: 75px;
 }
@@ -161,3 +166,16 @@ footer {
     height: 16px;
     line-height: 13px;
 }
+
+.tabcontent_gallery {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+
+.tabcontent_gallery > p {
+    margin-top: 20px;
+}
+
+
+

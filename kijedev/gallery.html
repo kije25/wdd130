@@ -12,6 +12,7 @@
     </style>
 </head>
 <body>
+    <script src="scripts/script.js"></script>
     <header>
         <img src="images/KijedevLogo.png" class="logo">
         <h3><a href="index.html">Home</a></h3>
@@ -22,30 +23,57 @@
         <h1>Development Gallery</h1>
         <h6>This page will have a selection of my previous web development projects. If your interested in seeing what I am cabable of, this is the place.</h6>
     </div>
-    <div class="boxes">
+    <div class="boxes top">
         <div class="box">
-            <img src="images/delivery_status_project.bmp">
-            <p>This page shows an sample food delivery app I created.</p>
+            <img src="images/delivery_status_project.bmp" class="tablinks" onclick="openContent(event, 'DS')">
         </div>
-        <div class="box">
+        <div class="box" class="tablinks" onclick="openContent(event, 'LP')">
             <img src="images/landing_page.bmp">
-            <p>This page is a complex landing page for a personal trainer.</p>
         </div>
-        <div class="box">
+        <div class="box" class="tablinks" onclick="openContent(event, 'CS')">
             <img src="images/coming_soon.bmp">
-            <p>This page is a "coming soon" placeholder for content the client has not finished yet.</p>
+        </div>
+    </div>
+    <div id="DS" class="tabcontent tabcontent_gallery">
+        <iframe src="https://codepen.io/kije25/full/BaxbVrW" width="650" height="1000" style="margin: auto;"></iframe>
+        <p>This page shows an sample food delivery app I created.</p>
+        <span onclick="this.parentElement.style.display='none'">x</span>
+    </div>
+    <div id="LP" class="tabcontent tabcontent_gallery">
+        <iframe src="https://codepen.io/kije25/full/qBYwNgR" width="800" height="600" style="margin: auto;"></iframe>
+        <p>This page is a complex landing page for a personal trainer.</p>
+        <span onclick="this.parentElement.style.display='none'">x</span>
+    </div>
+    <div id="CS" class="tabcontent tabcontent_gallery">
+        <iframe src="https://codepen.io/kije25/full/gOzEPyb" width="800" height="1200"></iframe>
+        <p>This page is a "coming soon" placeholder for content the client has not finished yet.</p>
+        <span onclick="this.parentElement.style.display='none'">x</span>
+    </div>
+    <div id="RP" class="tabcontent tabcontent_gallery">
+        <iframe src="https://codepen.io/kije25/full/GRGXoZY" width="600" height="800" style="margin: auto;"></iframe>
+        <p>This page is a short resume that I created to promote myself as a web developer.</p>
+        <span onclick="this.parentElement.style.display='none'">x</span>
+    </div>
+    <div id="GB" class="tabcontent tabcontent_gallery">
+        <img src="images\galaxy_box_front.jpg" loading="lazy" alt="" class="project-image">
+        <p>This page is a mock web store I created to test out how to link products together.</p>
+        <span onclick="this.parentElement.style.display='none'">x</span>
+    </div>
+    <div id="TC" class="tabcontent tabcontent_gallery">
+        <img src="images\two_clothes_store.bmp" loading="lazy" alt="" class="project-image" style="width: 500px;">
+        <p>This page is a mobile veiw of a web store I created to create complex item collections.</p>
+        <span onclick="this.parentElement.style.display='none'">x</span>
+    </div>
+
+    <div class="boxes bottom">
+        <div class="box">
+            <img src="images/resume_project_2.jpg" class="tablinks" onclick="openContent(event, 'RP')">
         </div>
         <div class="box">
-            <img src="images/resume_project_2.jpg">
-            <p>This page is a short resume that I created to promote my work.</p>
+            <img src="images/galaxy_box_store.bmp" class="tablinks" onclick="openContent(event, 'GB')">
         </div>
         <div class="box">
-            <img src="images/galaxy_box_store.bmp">
-            <p>This page is a mock web store I created to test out how to link products together.</p>
-        </div>
-        <div class="box">
-            <img src="images/two_clothes_mobile.jpg">
-            <p>This page is a mobile veiw of a web store I created to create complex item collections.</p>
+            <img src="images/two_clothes_mobile.jpg" class="tablinks" onclick="openContent(event, 'TC')">
         </div>
     </div>
     <footer>
