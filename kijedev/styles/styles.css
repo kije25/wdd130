@@ -144,6 +144,7 @@ footer {
     height: 400px;
 }
 
+
 .tabcontent {
     display: none;
     background-color: #4598b9;
@@ -168,8 +169,8 @@ footer {
 }
 
 .tabcontent_gallery {
+    display: none;
     height: 600px;
-    display: flex;
     flex-direction: column;
   }
 
